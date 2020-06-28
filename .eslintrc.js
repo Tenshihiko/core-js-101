@@ -16,5 +16,11 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
+    "linebreak-style": ["warn", "windows"],
+
+    "no-unused-vars": ["warn", { "args": "none", "varsIgnorePattern": "CustomError" }],
+    "no-plusplus": "off",
+    "no-bitwise": "off",
+    "no-nested-ternary": "warn"
   },
 };
